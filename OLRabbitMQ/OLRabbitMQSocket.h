@@ -20,7 +20,7 @@
 #import "OLRabbitMQError.h"
 #import "OLRabbitMQManager.h"
 
-#include <amqp.h>
+#import "rabbitmqc/amqp.h"
 
 @interface OLRabbitMQSocket : NSObject
 

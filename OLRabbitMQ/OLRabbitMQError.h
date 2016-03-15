@@ -17,7 +17,7 @@
  ******************************************************************************/
 
 #import <Foundation/Foundation.h>
-#include <amqp.h>
+#include "rabbitmqc/amqp.h"
 
 // Domain used by OLRabbitMQError
 #define kOLRabbitMQErrorDomain @"OLRabbitMQ.error"

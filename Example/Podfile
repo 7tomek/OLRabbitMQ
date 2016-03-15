@@ -1,3 +1,5 @@
 platform :ios, '7.0'
 
-pod 'OLRabbitMQ', :path => '../'
+target 'OLRabbitMQ Example' do
+pod 'OLRabbitMQ', :path => '../../OLRabbitMQ'
+end

@@ -18,8 +18,8 @@
 
 #import "OLRabbitMQOperation.h"
 // Include header from rabbitmq-c
-#include <amqp.h>
-#include <amqp_tcp_socket.h>
+#include "rabbitmqc/amqp.h"
+#include "rabbitmqc/amqp_tcp_socket.h"
 
 @interface OLRabbitMQOperation()
 
